@@ -1,0 +1,254 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background-color: rgb(226, 226, 221);
+}
+
+.container {
+  margin: 100px 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: auto;
+  height: 90vh;
+  border-radius: 30px;
+  background-color: rgb(141, 140, 140);
+}
+
+.hozion-tab {
+  position: relative;
+  width: auto;
+  height: 60px;
+  margin-left: 4.2rem;
+  border-radius: 0px 30px 0 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 1px 0px rgb(219, 202, 202);
+}
+
+.hozion-tab span {
+  margin-top: 18px;
+  padding-left: 80px;
+}
+
+.hozion-tab .logo {
+  display: grid;
+  grid-row-start: span;
+  margin: 0 10px;
+}
+
+.hozion-tab .right-icons {
+  float: right;
+  margin-top: -25px;
+  padding-right: 20px;
+}
+.right-icons span,
+img,
+h1,
+span {
+  display: inline;
+}
+
+.bell {
+  padding-right: 40px;
+}
+
+.down-arrow {
+  padding-right: 40px;
+  margin-left: -80px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 50px;
+}
+
+.image {
+  width: 40px;
+  height: 40x;
+}
+
+.vertical-tab {
+  position: absolute;
+  width: 60px;
+  height: 40rem;
+  border-radius: 30px 0 0 30px;
+  padding: 4px;
+  margin-top: -60px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px rgb(219, 202, 202);
+}
+
+.vertical-tab ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+}
+
+.vertical-tab ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: large;
+  align-self: center;
+}
+
+.vertical-tab ul li .fas {
+  margin-top: 30px;
+  margin-left: -10px;
+}
+
+.vertical-tab ul li .fa-sign-out-alt {
+  position: relative;
+  bottom: -14rem;
+}
+
+.vertical-tab ul li a {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+
+  align-self: center;
+
+  text-decoration: none;
+  color: rgb(56, 54, 54);
+}
+
+.vertical-tab ul li a .icon {
+  position: relative;
+  display: block;
+  width: 10px;
+  height: 60px;
+  text-align: left;
+}
+
+main {
+  position: relative;
+  padding: 20px;
+  width: auto;
+  height: 60vh;
+  background-color: rgb(141, 140, 140);
+  margin-left: 6.5rem;
+  margin-right: 2.5rem;
+  margin-top: 50px;
+
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: 100px repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid1 {
+  background-color: #fff;
+  border-radius: 8px;
+
+  grid-row: 1/-1;
+}
+
+.grid1 .grid1-button {
+  position: relative;
+  background-color: rgb(60, 220, 164);
+  color: #fff;
+  width: 93%;
+  height: 10%;
+  margin: 10px;
+  margin-top: -1rem;
+  border-radius: 4px;
+  padding: 4px;
+  margin-right: 12rem;
+}
+
+.grid1 .title {
+  position: relative;
+  align-items: center;
+  padding-left: 80px;
+  margin: 50px;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1000;
+}
+
+.workout .workout-img {
+  position: absolute;
+  width: 70px;
+  height: 90x;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.discription {
+  border: 2px solid rgb(60, 220, 164);
+  margin: 40px;
+  height: 80px;
+}
+
+.discription pre {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 501;
+  font-size: 13px;
+  margin: 10px;
+  margin-top: -0.1px;
+}
+
+.discription pre .bold {
+  position: relative;
+  color: rgb(60, 220, 164);
+}
+
+.address pre {
+  position: relative;
+  margin: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 55rem;
+  font-size: 13px;
+}
+
+.grid2 {
+  background-color: #fff;
+  border-radius: 8px;
+}
+.grid3 {
+  background-color: #fff;
+  border-radius: 8px;
+}
+.grid4 {
+  background-color: #fff;
+  border-radius: 8px;
+
+  grid-row: 2/-1;
+}
+.grid5 {
+  background-color: #fff;
+  border-radius: 8px;
+
+  grid-row: 2/-1;
+}
+
+.inner-container h1 {
+  position: absolute;
+  margin: 30px;
+  margin-left: 125px;
+}
+
+.inner-container .icons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 65%;
+  border-radius: 10px solid;
+}
+
+.icons .bars,
+.grid,
+.add {
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.icons .add {
+  background-color: rgb(60, 220, 164);
+}
